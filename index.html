@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa-Inas Samia</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        .box1 {
+            width: 200px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid #f1084a;
+            text-align: center;
+            background-color: palevioletred;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(-8px);
+        }
+       .box2 {
+            display: flex;            
+            gap: 18px;                  
+            justify-content: center;     
+            align-items: flex-start;    
+            flex-wrap: wrap;            
+            margin: 20px auto;
+            max-width: 900px;
+         }
+
+        .img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .bio {
+            text-align: justify;
+            color: #7e0426;
+        }
+        .header {
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding-top: 8px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .header h1 {
+            margin : 0px;
+        }
+        footer {
+            background-color: palevioletred;  
+            color: white;                     
+            text-align: center;             
+            padding: 15px;                    
+            margin-top: 40px;              
+            border-radius: 10px;            
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+        }
+
+        footer a {
+            color: #ffe4ec; 
+            text-decoration: none; 
+            font-weight: bold; 
+        }
+
+        footer a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 id="beranda">Profil Mahasiswa</h1>
+        <nav>
+    <a href="#beranda">Beranda</a> |
+    <a href="#biodata">Tentang Aku</a> |
+    <a href="#kontak">Kontak</a>
+  </nav>
+    </header>
+    <!--ini adalah header yang berisi navigasi dan judul-->
+    <h1 style="color: rgb(104, 3, 3)">Inas Samia Ashalina</h1>
+    <!--ini nama saya-->
+    <img class="img" src="inoele.jpeg" alt="ini foto profil">
+    <!--ini adalah style foto profil-->
+        <p class="bio">Hai, aku inas! seorang pelajar di STIKOM El Rahma bogor yang kini baru memasuki semester 1. Aku punya hobi membuat desain grafis yang bikin visual lembut dan dreamy! &#x1f495</p>
+        <!--perkenalan dulu gasie-->
+    <table border= 1 style="background-color: crimson;">
+         <caption style="background-color: burlywood;" id="biodata">Biodata Inas</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Penasaran? liat aja dibawah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NIM</td>
+                <td>2511080042</td>
+            </tr>
+            <tr>
+                <td>Prodi</td>
+                <td>Informatika</td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td>
+                <td>02 maret 2007</td>
+            </tr>
+             <tr>
+                <td>Alamat</td>
+                <td>Pondok petir, Bojongsari, Depok</td>
+            </tr>
+             <tr>
+                <td>Gender</td>
+                <td>Perempuan</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--ini adalah tabel biodata-->
+<div class="box2">
+<section>
+<h2 style="color: rgb(85, 3, 3);">Daftar Hobi &#x1F4A9;</h2>
+    <p style="background-color: darksalmon; text-align: center;">Ini hobi ku, mana hobi mu? &#x1F649;</p>
+<ul class="box1">
+        <li>Menyanyi &#x1F5E3;</li>
+        <li>Menggambar &#x270D;</li>
+        <li>Menari &#x1F483;</li>
+</ul>
+</section>
+<!--ini adalah box model pertama-->
+<section>
+<h2 style="color: rgb(85, 3, 3);">Keahlianku &#x1f47d</h2>
+    <p style="background-color: darksalmon; text-align: center;">Aku punya banyak keahlian loh! &#128524;</p>
+<ul class="box1">
+        <li>Cantik &#x1f64a;</li>
+        <li>Pintar &#x1f913;</li>
+        <li>Ceria &#x263a;</li>
+</ul>
+</section>
+<!--ini adalah box model kedua-->
+<br>
+<!--dikasih br biar ada spasi-->
+<section>
+<h2 style="color: rgb(85, 3, 3);">Hal yang kusuka &#x1f380</h2>
+    <p style="background-color: darksalmon; text-align: center;">Kepoin yuk, biar makin kenal &#x1f9f7;</p>
+<ul class="box1">
+        <li>Pink &#x1f496;</li>
+        <li>Bunga &#x1f338;</li>
+        <li>Kucing &#x2728;</li>
+</ul>
+</section>
+<!--ini adalah box model ketiga-->
+</div>
+<br>
+    <a href="https://www.instagram.com/inemi.noele?igsh=Z2dmNm16d2l3Z2Zw"
+    target="_blank" id="kontak"> Instagram Inas Cantik</a>
+    <p>Sekian terima gaji &#x1F4AA;</p>
+<!--ini penutup aja-->
+<footer>
+  <p>&#x1F4E9; Yuk kontak aku di <a href="https://wa.me/62895403265356?text=Halo%20aku%20Inas!%20%F0%9F%92%95%20Mau%20ngobrol%20apa%20nih%3F%20%F0%9F%8C%B8%F0%9F%92%AB" target="_blank">Whatsapp</a></p>
+  <p>&copy; 2025 Inas Samia - STIKOM El Rahma</p>
+</footer>
+<!--ini footer-->
+</body>
+</html>
+<!--Alhamdulillah kelar-->
